@@ -93,4 +93,10 @@ public:
 				FRONT++;
 			}
 			cout << endl;
+		}
+	}
 };
+
+int main() {
+
+}

@@ -62,6 +62,9 @@ public:
 
 	void display() {
 
+		int FRONT_Position = FRONT;
+		int REAR_Position = REAR;
+
 		// Cek apakah antrian kosong
 		if (FRONT == -1) {
 			cout << "Queue is empty \n";
@@ -71,8 +74,8 @@ public:
 		cout << "\nElements in the queue are...\n";
 
 		// Jika Front <= REAR, iterasi dari FRONT hingga REAR
-		if (FRONT <= REAR) {
-			while (FRONT <= REAR) {
+		if (FRONT_Position <= REAR_Position) {
+			while (FRONT_Position <= REAR_Position) {
 				cout << queue_array[FRONT] << "  ";
 				FRONT++;
 			}
@@ -126,3 +129,13 @@ int main() {
 				q.display();
 				break;
 			}
+			case '4': {
+				return 0;
+			}
+			default: {
+				cout << "Invalid option!!" << endl;
+				break;
+			}
+			}
+		}
+		catch (exception& e)

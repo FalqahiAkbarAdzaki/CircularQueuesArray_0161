@@ -81,7 +81,7 @@ public:
 		else {
 			// Jika FRONT > REAR, iterasi dari FRONT hingga akhir array
 			while (FRONT <= max - 1) {
-				cout << queue_array[Front] << "  ";
+				cout << queue_array[FRONT] << "  ";
 				FRONT++;
 			}
 
@@ -92,4 +92,5 @@ public:
 				cout << queue_array[FRONT] << "  ";
 				FRONT++;
 			}
+			cout << endl;
 };

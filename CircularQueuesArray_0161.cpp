@@ -107,3 +107,4 @@ int main() {
 			cout << "1. Implement insert operation" << endl;
 			cout << "2. Implement selete operation" << endl;
 			cout << "3. Display values" << endl;
+			cout << "4. Exit" << endl;

@@ -30,6 +30,11 @@ public:
 		}
 		else {
 			// Jika REAR berada di psisi terkahir arry, kembali ke awal array
+			if (REAR == max - 1)
+				REAR = 0;
+			else
+				REAR = REAR + 1;
 		}
+		queue_array
 	}
 };

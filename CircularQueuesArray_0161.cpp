@@ -48,9 +48,15 @@ public:
 
 		// Cek jika antrian hanya memiliki satu elemen
 		if (FRONT == REAR) {
-			DRONT = -1;
+			FRONT = -1;
 			REAR = -1;
 		}
-		s
+		else {
+			// Jika elmen yang dihapus berada di posisi akhir array, kembali ke asal array
+			if (FRONT == max - 1)
+				FRONT = 0;
+			else
+				FRONT = FRONT + 1;
+		}
 	}
 };

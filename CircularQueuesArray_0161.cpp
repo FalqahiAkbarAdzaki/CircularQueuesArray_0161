@@ -22,5 +22,14 @@ public:
 			cout << "\nQueue overflow\n";
 			return;
 		}
+
+		// cek apakah antrian kosng
+		if (FRONT == -1) {
+			FRONT = 0;
+			REAR = 0;
+		}
+		else {
+			// Jika REAR berada di psisi terkahir arry, kembali ke awal array
+		}
 	}
 };

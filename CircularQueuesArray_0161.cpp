@@ -77,4 +77,8 @@ public:
 				FRONT++;
 			}
 			cout << endl;
+		}
+		else {
+			// Jika FRONT > REAR, iterasi dari FRONT hingga akhir array
+			while (FRONT <= max - 1) {
 			};

@@ -103,3 +103,4 @@ int main() {
 
 	while (true) {
 		try {
+			cout << "Menu" << endl;

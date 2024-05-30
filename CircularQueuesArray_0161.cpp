@@ -105,3 +105,5 @@ int main() {
 		try {
 			cout << "Menu" << endl;
 			cout << "1. Implement insert operation" << endl;
+			cout << "2. Implement selete operation" << endl;
+			cout << "3. Display values" << endl;
